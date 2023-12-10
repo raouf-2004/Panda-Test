@@ -46,6 +46,14 @@ flex-direction:column;
 align-items:center;
 
 }
-.li{
+.li:unvisited{
 color:white;
+text-decoration:none;
+}
+.li:visited{
+color:gold;
+text-decoration:none;
+}
+.li:hover ,.li:active{
+text-decoration:underline;
 }
